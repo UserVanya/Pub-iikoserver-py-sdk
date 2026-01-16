@@ -1,0 +1,21 @@
+# flake8: noqa
+
+# import apis into api package
+from iikoserver_client.api.accounts_api import AccountsApi
+from iikoserver_client.api.cash_shifts_management_api import CashShiftsManagementApi
+from iikoserver_client.api.corporation_management_api import CorporationManagementApi
+from iikoserver_client.api.documents_management_api import DocumentsManagementApi
+from iikoserver_client.api.employees_management_api import EmployeesManagementApi
+from iikoserver_client.api.fast_menu_management_api import FastMenuManagementApi
+from iikoserver_client.api.invoices_management_api import InvoicesManagementApi
+from iikoserver_client.api.menu_change_management_api import MenuChangeManagementApi
+from iikoserver_client.api.nomenclature_management_api import NomenclatureManagementApi
+from iikoserver_client.api.price_categories_api import PriceCategoriesApi
+from iikoserver_client.api.price_periods_api import PricePeriodsApi
+from iikoserver_client.api.reference_data_api import ReferenceDataApi
+from iikoserver_client.api.replications_api import ReplicationsApi
+from iikoserver_client.api.reports_v1_api import ReportsV1Api
+from iikoserver_client.api.reports_v2_api import ReportsV2Api
+from iikoserver_client.api.session_management_api import SessionManagementApi
+from iikoserver_client.api.supplers_management_api import SupplersManagementApi
+
